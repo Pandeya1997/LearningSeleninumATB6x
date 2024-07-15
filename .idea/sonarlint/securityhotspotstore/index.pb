@@ -22,6 +22,12 @@ Fsrc/test/java/com/thetestingacademy/ex_11_07_2024_selenium/Lab305.java,c\4\c44
 @
 testngLab305.xml,6\2\62f503c1b7048a0bb16d919e30d11bfb3d8e8377
 v
-Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab306.java,4\7\472a98b7ee3e0488fb67bd810f3f9a71b7f0de9e
-v
 Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab308.java,e\0\e066281b657e771da82700d08a39009c29a0fda5
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab309.java,6\d\6d84662d172d40b491f6e03dcabd705c117f0061
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab310.java,b\1\b1589f8288dcd671f7c7a0bc9f582ebb697382be
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab311.java,5\f\5fc16180368c5fafc22edb9d6ed5b8954341e3b2
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab312.java,5\5\5513de0d1784ec44c1259d7492bcc664d833061f
