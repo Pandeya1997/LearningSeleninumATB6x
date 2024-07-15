@@ -5,9 +5,6 @@
 .src/test/java/com/thetestingacademy/Hello.java,a\c\ac0fce6d21f0c31c3e175d12271be61aad3b9071
 v
 Fsrc/test/java/com/thetestingacademy/ex_11_07_2024_selenium/Lab298.java,4\d\4d460973e8a19dfe5c9f1dd06206c70c26f5b588
-:
-
-testng.xml,5\2\522a7a4e21649af06297e31a9e33f13bb4fd3022
 v
 Fsrc/test/java/com/thetestingacademy/ex_11_07_2024_selenium/Lab299.java,9\c\9c77abde93a7fab0f068d28532016200a77ab543
 v
@@ -24,3 +21,7 @@ v
 Fsrc/test/java/com/thetestingacademy/ex_11_07_2024_selenium/Lab305.java,c\4\c44fdaf789680d2a50e065e1fbdb5cb2a42cbdfc
 @
 testngLab305.xml,6\2\62f503c1b7048a0bb16d919e30d11bfb3d8e8377
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab306.java,4\7\472a98b7ee3e0488fb67bd810f3f9a71b7f0de9e
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab308.java,e\0\e066281b657e771da82700d08a39009c29a0fda5
