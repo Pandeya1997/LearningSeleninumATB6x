@@ -1,8 +1,8 @@
 
 Î
-java:S3577"…Rename class "Lab314" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ªÝ™¬ùÿÿÿÿ8°éÇÛ‹2J$d3a3bb6e-02e6-4c99-84b8-394c750d0611
-~	java:S125 "<This block of commented-out lines of code should be removed.(®„ë²8²éÇÛ‹2J$40d538c7-848a-4b9c-bd66-5aad3d15a8ea
+java:S3577"…Rename class "Lab314" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ªÝ™¬ùÿÿÿÿ8°éÇÛ‹2J$b707af5b-daa4-4a2c-ae37-8326ef8cce28
+~	java:S125"<This block of commented-out lines of code should be removed.(®„ë²8²éÇÛ‹2J$5d3b2fb4-0dad-4f09-b033-06ea00e21b50
 g
-java:S29250"$Remove this use of "Thread.sleep()".(öÍËè8²éÇÛ‹2J$9cc9841d-5146-4b1d-be46-f3fbce4ea9a6
+java:S2925/"$Remove this use of "Thread.sleep()".(öÍËè8²éÇÛ‹2J$9f16d319-9b11-48aa-aab2-dbb34f0a95bc
 g
-java:S29259"$Remove this use of "Thread.sleep()".(¬Æ„°8²éÇÛ‹2J$c9de0b6b-c073-4c15-829e-91aad8f656a5
+java:S29258"$Remove this use of "Thread.sleep()".(¬Æ„°8²éÇÛ‹2J$ba751b30-3d78-456a-b59b-fb45d07f948e
