@@ -1,5 +1,8 @@
 
 É
-java:S3577"…Rename class "Lab312" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(²÷é¤8õ‰ò»‹2J$6a7cffc6-5d40-4abb-8888-f3b1ffe7d0f7
+java:S3577"…Rename class "Lab312" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(²÷é¤8ˆ™ûØ‹2J$257df490-0b63-4fda-b979-21885ceec36b
 g
-java:S29255"$Remove this use of "Thread.sleep()".(¬Æ„°8÷‰ò»‹2J$3198ba13-51fd-4fe5-9f29-bee7b081a739
+java:S29257"$Remove this use of "Thread.sleep()".(öÍËè8‰™ûØ‹2J$4b12dce4-1a80-40a2-821a-90be46a7b2aa
+ƒ	java:S125>"<This block of commented-out lines of code should be removed.(äÉê—ýÿÿÿÿ8Û€Ù‹2J$47cafc48-476d-4522-bfa0-104b0ea4352c
+g
+java:S2925D"$Remove this use of "Thread.sleep()".(¬Æ„°8‰™ûØ‹2J$9381ffda-1b6e-4181-8cba-3503a2901fac

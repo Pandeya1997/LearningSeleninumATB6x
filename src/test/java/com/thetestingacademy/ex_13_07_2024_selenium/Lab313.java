@@ -9,7 +9,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Lab312 {
+public class Lab313 {
     @Test
     public void testVwoLoginNegative() {
         // Project #1 TC (Negative) - invalid username pass message
@@ -36,33 +36,40 @@ public class Lab312 {
         WebDriver  driver = new EdgeDriver(edgeOptions);
 
         driver.get("https://app.vwo.com");
+
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(), "Login - VWO");
         Assert.assertEquals(driver.getCurrentUrl(),"https://app.vwo.com/#/login");
         // Actual result = excepted results
 
-       WebElement emailInputBox =  driver.findElement(By.id("login-username"));
-      emailInputBox.sendKeys("admin@admin.com");
+        WebElement emailInputBox =  driver.findElement(By.id("login-username"));
+        emailInputBox.sendKeys("admin@admin.com");
 
-      WebElement passInputBox = driver.findElement(By.id("login-password"));
-       passInputBox.sendKeys("password@321");
-
-
-      WebElement buttonSubmit = driver.findElement(By.id("js-login-btn"));
-      buttonSubmit.click();
-
-      try {
-          Thread.sleep(3000);
-      }catch (InterruptedException e){
-          throw new RuntimeException(e);
-      }
+        WebElement passInputBox = driver.findElement(By.id("login-password"));
+        passInputBox.sendKeys("password@321");
 
 
-      // verfiy the error message
-     //  WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
+        WebElement buttonSubmit = driver.findElement(By.id("js-login-btn"));
+        buttonSubmit.click();
+
+        try {
+            Thread.sleep(3000);
+        }catch (InterruptedException e){
+            throw new RuntimeException(e);
+        }
+
+
+        // verfiy the error message
+        //  WebElement error_msg = driver.findElement(By.id("js-notification-box-msg"));
         WebElement error_msg = driver.findElement(By.className("notification-box-description"));
-       Assert.assertEquals(error_msg.getText(), "Your email, password, IP address or location did not match");
+        Assert.assertEquals(error_msg.getText(), "Your email, password, IP address or location did not match");
 
+
+//        WebElement freeTrialLink = driver.findElement(By.linkText("Start a free trial"));
+//freeTrialLink.click();
+        // or pratical use text
+        WebElement freeTrialLink = driver.findElement(By.partialLinkText("Start a free"));
+        freeTrialLink.click();
 
         try {
             Thread.sleep(5000);

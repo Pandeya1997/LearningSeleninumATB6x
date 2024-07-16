@@ -31,3 +31,7 @@ v
 Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab311.java,5\f\5fc16180368c5fafc22edb9d6ed5b8954341e3b2
 v
 Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab312.java,5\5\5513de0d1784ec44c1259d7492bcc664d833061f
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab313.java,e\4\e40169a78fbdae0ad7a49344af9989afff1d856c
+v
+Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab314.java,d\2\d24ca7b5f0dbd5508eb632ce91a6f90051c311f7
