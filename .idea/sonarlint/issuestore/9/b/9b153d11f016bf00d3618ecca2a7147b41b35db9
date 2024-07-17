@@ -1,8 +1,8 @@
 
 å
-java:S3577"œRename class "Make_Appointment_Mini_Project" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ýÂëãÿÿÿÿÿ8É÷Œæ‹2J$cb406dbc-d1ce-42a0-9681-01a1d003fe9d
-~	java:S125"<This block of commented-out lines of code should be removed.(ú²Ð‰8Ê÷Œæ‹2J$e5e472a9-496e-4422-be25-14c9d8fa751c
+java:S3577"œRename class "Make_Appointment_Mini_Project" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ýÂëãÿÿÿÿÿ8öÐºô‹2J$c9a3e3cc-0a2b-4bed-a6a2-121b9ca4a8d8
+~	java:S125"<This block of commented-out lines of code should be removed.(ú²Ð‰8ùÐºô‹2J$8139f253-1a6a-4535-8a6d-fd7b42637508
 g
-java:S29250"$Remove this use of "Thread.sleep()".(öÍËè8Ë÷Œæ‹2J$c822d3aa-931a-4223-84fe-7bab82a1d2c3
+java:S29250"$Remove this use of "Thread.sleep()".(öÍËè8ûÐºô‹2J$e48d2a6c-9e0b-4f60-a92c-be17db405698
 g
-java:S29259"$Remove this use of "Thread.sleep()".(öÍËè8ï¾æ‹2J$ba7560c2-1025-494f-9910-634297aedde1
+java:S29258"$Remove this use of "Thread.sleep()".(öÍËè8ûÐºô‹2J$ba7e3889-51af-4b35-b92e-637b67d50c1e

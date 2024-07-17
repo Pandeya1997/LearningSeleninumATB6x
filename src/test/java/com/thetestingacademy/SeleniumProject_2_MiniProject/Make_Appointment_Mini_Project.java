@@ -52,7 +52,6 @@ public class Make_Appointment_Mini_Project {
         WebElement error_msg_loginFaild = driver.findElement(By.className("text-danger"));
         System.out.println(error_msg_loginFaild.getText());
 
-
         try {
             Thread.sleep(3000);
         }catch (InterruptedException e) {

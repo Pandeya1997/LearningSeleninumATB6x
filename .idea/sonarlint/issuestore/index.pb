@@ -35,7 +35,7 @@ v
 Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab313.java,e\4\e40169a78fbdae0ad7a49344af9989afff1d856c
 v
 Fsrc/test/java/com/thetestingacademy/ex_13_07_2024_selenium/Lab314.java,d\2\d24ca7b5f0dbd5508eb632ce91a6f90051c311f7
-Å
-Qsrc/test/java/com/thetestingacademy/SeleniumProject_2_MiniProject/OpenTheURL.java,1\e\1e84c921c1747fabf7e072a3618b7c1c5e118e9c
 î
 dsrc/test/java/com/thetestingacademy/SeleniumProject_2_MiniProject/Make_Appointment_Mini_Project.java,9\b\9b153d11f016bf00d3618ecca2a7147b41b35db9
+Ö
+Usrc/test/java/com/thetestingacademy/idrive360Mini_project_3/idrive360_Navigation.java,6\d\6df02c42214b7ffdabc5e5cfa21c5ca4d7b980c3
