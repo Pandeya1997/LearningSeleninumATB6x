@@ -1,5 +1,4 @@
-1. Selenium-Notes.pdf    [Uploading Selenium Notes.pdf…]()
-2. 
-3. Selenium Link  https://www.dropbox.com/scl/fi/wv0qd5ljkenwm85u1h810/Selenium-Notes.pdf?rlkey=69ktv4ex8yr0y1rh03go3gjqe&e=6&dl=0
+1. Selenium-Notes.pdf    [Selenium 4.x Notes _ Web Automation   - TheTestingAcademy _ Pramod.docx](https://github.com/user-attachments/files/16282468/Selenium.4.x.Notes._.Web.Automation.-.TheTestingAcademy._.Pramod.docx)
 
-[Uploading Selenium Notes.pdf…]()
+2. Selenium Note Link  https://docs.google.com/document/d/1XKRpre9VSsJfGQdGo1vpi42IDXzisd6vGCjNRl545fM/edit
+3.  
