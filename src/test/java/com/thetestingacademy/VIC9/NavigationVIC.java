@@ -9,6 +9,8 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class NavigationVIC {
     @Test
     public void testNavigation(){
@@ -41,8 +43,54 @@ public class NavigationVIC {
         WebElement button_login = driver.findElement(By.xpath("//button [@title= 'Login']"));
         button_login.click();
 
+        System.out.println(driver.getCurrentUrl());
+        Assert.assertEquals(driver.getCurrentUrl(), "https://victoryexch9.com/");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+//        WebElement button_cancel = driver.findElement(By.xpath("//button[text()='Cancel']"));
+//        button_cancel.click();
 
+// button[text()='Allow']
+        WebElement button_Allow = driver.findElement(By.xpath("//  button[text()='Allow']"));
+        button_Allow.click();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+//        WebElement button_matka = driver.findElement(By.xpath("//a[@href = '/games/matka-market']"));
+//        button_matka.click();
 
+        //a[@href='/']
+        List<WebElement> Inplay_button = driver.findElements(By.xpath("//a[@href='/']"));
+        Inplay_button.get(1).click();
+
+       // England v West Indies
+        WebElement  button_England = driver.findElement(By.xpath("//span [text()='England v West Indies']"));
+              button_England.click();
+              try {
+                  Thread.sleep(3000);
+              } catch (InterruptedException e) {
+                  throw new RuntimeException(e);
+              }
+        //odd
+//        WebElement Back_odd_Button = driver.findElement(By.xpath("(//span[@class='price_odd_title'])[7]"));
+//               Back_odd_Button.click();
+        //odd
+        List<WebElement> Back_odd_Button = driver.findElements(By.xpath("//span[@class='price_odd_title']"));
+               Back_odd_Button.get(7).click();
+               try {
+                   Thread.sleep(1000);
+               } catch (InterruptedException e) {
+                   throw new RuntimeException(e);
+               }
+
+               // place bet
+//        List<WebElement> place_bet = driver.findElements(By.xpath("//button [@class = 'stack_button select_amount_button']']"));
+//               place_bet.get(2).click();
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
