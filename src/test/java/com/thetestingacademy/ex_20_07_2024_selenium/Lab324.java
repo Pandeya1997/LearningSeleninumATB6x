@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -16,9 +17,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-import static com.thetestingacademy.ex_20_07_2024_selenium.WaitHelpers.CheckVisibility;
-
-public class Lab323 {
+public class Lab324 {
     EdgeDriver driver;
 
     @BeforeTest
@@ -34,25 +33,23 @@ public class Lab323 {
     @Description("Test Case Description")
     public void testVerifyFREETrial() throws InterruptedException {
 
-        // Explicit Wait
-
-
-        driver.get("https://app.vwo.com/#/login");
+        driver.get("https://the-internet.herokuapp.com/dropdown");
         System.out.println(driver.getTitle());
         driver.manage().window().maximize();
+        //select Box
+        //
 
-        driver.findElement(By.id("login-username")).sendKeys("contact+atb7x@thetestingacademy.com");
-        driver.findElement(By.id("login-password")).sendKeys("Wingify@1234");
-        driver.findElement(By.id("js-login-btn")).click();
+        WebElement element_select  = driver.findElement(By.id("dropdown"));
+        Select select = new Select(element_select);
+     //   select.selectByIndex(2);
 
-        // Wait to Dashboard to Load - Fluent Wait
-        Wait<EdgeDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
-                .pollingEvery(Duration.ofSeconds(2))
-                .ignoring(NoSuchElementException.class);
+        select.selectByVisibleText("Option 2");
 
-WebElement logged_username = wait.until(driver -> driver.findElement(By.cssSelector("[data-qa='lufexuloga']")));
-        System.out.println("Logged in user details --> " + logged_username.getText());
-        Assert.assertTrue(logged_username.getText().contains("Aman Ji"));
+        // HTML Select TAG IS USED.
+        // Select Tag is not - Another mechanism
+
+
+
     }
 
 
