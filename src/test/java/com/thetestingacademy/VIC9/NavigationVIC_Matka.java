@@ -6,11 +6,15 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+import java.util.List;
 
 
 public class NavigationVIC_Matka {
@@ -78,11 +82,6 @@ public class NavigationVIC_Matka {
         WebElement button_matka = driver.findElement(By.xpath("//a[@href = '/games/matka-market']"));
         button_matka.click();
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         // 1st Event Clicks Like Ghaziabad
 
         //Ghaziabad Event CLicks
@@ -91,8 +90,29 @@ public class NavigationVIC_Matka {
 //        GhaziabadEvent.click();
 // or
         // (//div [@class = 'game_name_container'])[12]
-       WebElement GhaziabadEvent = driver.findElement(By.xpath("(//div[@class='matka-overlay'])[12]"));
-        GhaziabadEvent.click();
+
+//    List<WebElement> GhaziabadEvent1 = driver.findElements(By.xpath("//div[@class='matka-overlay']"));
+//        GhaziabadEvent1.get(1).click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='madhur-daycont']")));
+
+        WebElement Event1 = driver.findElement(By.xpath("//div[@id='madhur-daycont']"));
+        Event1.click();
+        System.out.println(Event1.findElement(By.xpath("//div[@id='madhur-daycont']" )).getText());
+        Assert.assertEquals(Event1.findElement(By.xpath("//div[@id='madhur-daycont']")).getText(), "MADHUR DAY\n" +
+                "OPEN 01:22 PM\n" +
+                "CLOSE 03:33 PM\n" +
+                "OPEN\n" +
+                "CLOSE\n" +
+                "JODI\n" +
+                "TODAY\n" +
+                "NYD\n" +
+                "NYD\n" +
+                "NYD\n" +
+                "YESTERDAY\n" +
+                "NYD\n" +
+                "NYD\n" +
+                "NYD");
 
          try {
              Thread.sleep(3000);
