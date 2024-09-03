@@ -25,8 +25,8 @@ public class DDTRealTime01 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-
     WebDriver driver;
+
 
     @Test(dataProvider = "loginData")
     public void testDataDriven(String email, String password, String expectedResult) {
@@ -42,7 +42,7 @@ public class DDTRealTime01 {
         if (expectedResult.equalsIgnoreCase("Valid")) {
             String text = driver.findElement(By.cssSelector("[data-qa=\"lufexuloga\"]")).getText();
             System.out.println(text);
-            Assert.assertEquals(text,"Wingify");
+            Assert.assertEquals(text,"Aman Ji");
         }
         if (expectedResult.equalsIgnoreCase("InValid")) {
             WebElement error_message = driver.findElement(By.id("js-notification-box-msg"));
@@ -70,6 +70,7 @@ public String[][] testDataExcel() throws IOException {
 }
 
     @AfterClass
+
     public void tearDown() {
 
         driver.quit();
